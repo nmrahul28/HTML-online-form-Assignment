@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Online Registration     <!--Name of web page-->
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <!--link to get search icon-->
+    </head>
+    <body>
+        <span>
+            <img src="kellton1.jpg" alt="Kellton tech logo" width="150px" height="150px" hspace="30"> <!--Kellton tech image-->
+        </span>
+        <a href="#Home">Home</a>&ensp;
+        <a href="#products">Products</a>&ensp;          <!--links at the top of the page-->
+        <a href="#company">Company</a>&ensp;
+        <a href="#Blog">Blog</a>&ensp;
+        <span>
+            <button type="submit" class="button"><i class="fa fa-search"></i>
+            </button>                                                           <!--search bar and button-->
+            <input type="text" class="button" placeholder="Search..">
+        </span>
+        <h1 class="h1_text">
+            Online Registration                                        
+        </h1>
+        <hr>
+        <p class="paragraph">
+            Kellton Tech Solutions Ltd. is an Indian information technology and outsourcing company headquartered in Hyderabad, India with offices in United States and Europe.The company reported net revenues of 7.39 billion with more than 1400 employees.
+        </p>
+        <hr>
+        <table>                                         
+            <tr>
+                <td>
+                    <b>
+                        Title
+                    </b>
+                </td>
+                <td>
+                    <select>
+                        <option value="Male">Mr.</option>
+                        <option value="Female">Mrs.</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                        First Name
+                    </b>
+                </td>
+                <td>
+                       <input type="text" name="first name" placeholder="First Name">       <!--First name text field-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                        Last Name
+                    </b>
+                </td>                                                                          <!--Last Name text field-->
+                <td>
+                    <input type="text" name="lastname" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                 <td>
+                    <b>
+                        DOB
+                    </b>
+                </td>
+                <td>
+                    <input type="date" name="dob">                                             <!--Calander field-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                        Full Address
+                    </b>
+                </td>
+                <td>
+                    <textarea rows="10" cols="20" placeholder="Address"></textarea>             <!--textarea of address box-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                         Items you want
+                    </b>
+                </td>
+                <td>
+                    <textarea rows="10" cols="20" placeholder="Item one
+                                                               Item two
+                                                               Item three"></textarea>                    <!--text area of items box-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                        Choose any
+                    </b>
+                </td>
+                <td>
+                    <input type="radio" name="choose_any" value="Choose One">Choose One<br>
+                    <input type="radio" name="choose_any" value="Choose Two">Choose Two<br>      <!--radio buttons for choosing number of items-->
+                    <input type="radio" name="choose_any" value="Choose Three">Choose Three<br>
+                </td>
+            </tr>
+             <br>
+            <tr>
+                <td>
+                    <b>
+                        Increment number
+                    </b>
+                </td>
+                <td>
+                    <input type="number" value="4" min="4">                                        <!--number incrementing box-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input type="checkbox" name="trems_and_cond" value="T and C">                  <!--checkbox-->
+                    <b>
+                        Agree with Terms and Conditions
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" class="register_button" value="Register">                  <!--register button-->
+                </td>
+                <td>
+                    <input type="button" value="Save Draft">                                        <!--save draft button-->
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+<!--style sheet-->
+<style>
+    .button{                    
+        float:right;           /*style for search bar and its button*/
+    }
+    .paragraph{
+        font-size: 20px;        /*style for paragraphs font size*/
+    }
+    .h1_text{
+        text-align: center      /*style for heading h1 to align text to center*/
+    }
+    .register_button{
+        background-color: #b3ffff  /*color to register button*/
+    }
+    table, td, tr{
+        padding: 10pt;              /*spacing between table rows*/s
+    }
+</style>
